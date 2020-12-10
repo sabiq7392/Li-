@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="icon" href="gambar/LogoListen1.jpg">
+	<link rel="stylesheet" href="login.css">
+	<script src="login javas.js"></script>
+	
+</head>
+<body>
+	
+		<form name="myForm" id="form" action="index.html" onsubmit="return Form()" method="post">
+			<fieldset>
+					<center><a href="index.html" class="Logo"><img src="gambar/Li! Black.png" alt="logo"></a></center>
+					<p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" class="p1"><b>LOGIN</b></p>
+					
+                    <div class="username">
+						<input type="text" name="fname" id="username" size="30" placeholder="Username">
+					</div>
+                   <div class="password">
+						<input type="password" name="pass" id="pass" size="30" placeholder="Password">
+				   </div>					 
+					<div class="button">
+						<input type="submit" name="submit" id="submit" class="tombolsubmit" onclick="Login();" > 
+					</div>
+					<div class="Remember">
+						<input type="checkbox" name="Remember" id="Remember" value="1">Remember Me!
+					</div>
+					<div class="forget">					
+						<a href="Login.html" class="cancel">Cancel</a>
+						<a href="#" class="forgetpass">Forget Password?</a>
+					</div>					
+			</fieldset>
+						
+
+
+		</form>
+	
+</body>
+</html>
